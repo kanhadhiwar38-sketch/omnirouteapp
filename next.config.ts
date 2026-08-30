@@ -50,7 +50,7 @@ function createNextConfig(phase: string): NextConfig {
 
   return {
     /* config options here */
-    output: "standalone",
+    //output: "standalone",
     deploymentId,
     env: {
       NEXT_PUBLIC_DEPLOYMENT_ID: deploymentId,
